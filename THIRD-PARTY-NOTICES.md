@@ -11,13 +11,13 @@ The full license texts ship with the bundled components under
 > `wine-support/fonts/`.
 
 ## Wine — GNU LGPL 2.1-or-later
-- The primary runtime is built from **wine-wukiyo**, a fork of WineHQ Wine 10.0
+- The primary runtime is built from **swingby-wine**, a fork of WineHQ Wine 10.0
   carrying macOS / Rosetta 2 compatibility patches.
-  - Modified source: https://github.com/tsukasa-art/wine-wukiyo
+  - Modified source: https://github.com/tsukasa-art/swingby-wine
   - Upstream: https://gitlab.winehq.org/wine/wine
 - A separate **Wine 7.7** runtime (`wine-support/wine64/`) is bundled as an
   explicit compatibility runtime for certain engines.
-- Corresponding source for the modified Wine is available at the wine-wukiyo
+- Corresponding source for the modified Wine is available at the swingby-wine
   repository above (LGPL §6). See Wine's `LICENSE` / `COPYING.LIB`.
 
 ## DXVK — zlib/libpng License

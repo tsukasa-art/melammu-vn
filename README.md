@@ -108,4 +108,4 @@ If you are a publisher or developer interested in macOS compatibility for your t
 ## License
 
 The Swift application (this repository) is proprietary — all rights reserved.  
-[wine-wukiyo](https://github.com/tsukasa-art/wine-wukiyo) is LGPL (inherited from Wine). Source is available on GitHub.
+[swingby-wine](https://github.com/tsukasa-art/swingby-wine) is LGPL (inherited from Wine). Source is available on GitHub.

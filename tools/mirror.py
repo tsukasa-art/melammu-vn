@@ -1,9 +1,9 @@
 import os, shutil, subprocess, sys
 # Paths derive from this script's location (melammu-vn/tools/mirror.py) so the
-# default layout (wine-wukiyo as a sibling of melammu-vn) works with no config.
+# default layout (swingby-wine as a sibling of melammu-vn) works with no config.
 # Override either via env if your layout differs.
 _HERE = os.path.dirname(os.path.abspath(__file__))
-BUILD = os.environ.get("WINE_WUKIYO_BUILD", os.path.normpath(os.path.join(_HERE, "..", "..", "wine-wukiyo", "build")))
+BUILD = os.environ.get("SWINGBY_WINE_BUILD", os.path.normpath(os.path.join(_HERE, "..", "..", "swingby-wine", "build")))
 W     = os.environ.get("MELAMMU_WINE",      os.path.normpath(os.path.join(_HERE, "..", "wine-support", "wine")))
 idx_pe={}; idx_pe_i386={}; idx_so={}
 for root in (f"{BUILD}/dlls", f"{BUILD}/programs"):

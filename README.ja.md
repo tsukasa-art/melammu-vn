@@ -108,4 +108,4 @@ Melammu/
 ## ライセンス
 
 このSwiftアプリケーション（本リポジトリ）はプロプライエタリです。All rights reserved。  
-[wine-wukiyo](https://github.com/tsukasa-art/wine-wukiyo) はLGPL（Wineから継承）。ソースはGitHubで公開しています。
+[swingby-wine](https://github.com/tsukasa-art/swingby-wine) はLGPL（Wineから継承）。ソースはGitHubで公開しています。

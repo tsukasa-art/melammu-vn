@@ -1011,7 +1011,7 @@ final class LibraryViewModel {
         guard let fileURL = newestURL else { return }
 
         // Retired: CMVS now produces correct thumbnails natively via
-        // wine-wukiyo's last-presented back-buffer serve (Windows windowed-present
+        // swingby-wine's last-presented back-buffer serve (Windows windowed-present
         // copy semantics).  Post-save .dat patching picked the newest-mtime file,
         // which corrupted companion files (savedel/save8xx/save999), stamped stale
         // frozen snaps onto unrelated slots, and broke overwrite saves.
