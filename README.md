@@ -2,6 +2,8 @@
 
 **[melammu.app](https://melammu.app)** — compatible title database | [日本語版 README](README.ja.md)
 
+Part of **Orrery** — a macOS compatibility layer for Windows visual novels.
+
 A macOS launcher for Japanese visual novels running under Wine. Drop in an installer `.exe`, and Melammu builds the Wine prefix, installs fonts and DXVK, detects the game engine, and adds the title to your library — no terminal required.
 
 ## What it does
